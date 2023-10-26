@@ -87,7 +87,7 @@ const toggleDark = useToggle(isDark)
       <div class="overflow-y-auto max-h-[400px]">
         <draggable v-model="filtredArr" @start="drag=true" @end="drag=false" item-key="id">
           <template #item="{element}">
-            <div class="cursor-move w-full bg-light-VeryLightGray dark:bg-dark-VeryDarkDesaturatedBlue p-4 lg:p-6 flex items-center justify-between gap-6 first:rounded-t-lg border-b border-dark-DarkGrayishBlue">
+            <div class="cursor-move w-full bg-light-VeryLightGray dark:bg-dark-VeryDarkDesaturatedBlue p-4 lg:p-6 flex items-center justify-between gap-6 first:rounded-t-lg border-b border-light-VeryLightGrayishBlue dark:border-dark-VeryDarkGrayishBlueM">
               <div class=" flex gap-8">
                 <button 
                   @click="toggleCompletion(element.id)"
