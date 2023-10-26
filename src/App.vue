@@ -107,7 +107,7 @@ const toggleDark = useToggle(isDark)
           </template>
         </draggable>
       </div>
-      <div class="bg-light-VeryLightGray dark:bg-dark-VeryDarkDesaturatedBlue p-4 lg:p-6 flex items-center justify-between gap-6 rounded-b-lg">
+      <div class="bg-light-VeryLightGray dark:bg-dark-VeryDarkDesaturatedBlue p-4 lg:p-6 flex items-center justify-between gap-6 rounded-b-md">
           <h2 class="text-light-DarkGrayishBlue">
             <span>{{ filtredArr.length }}</span> items left
           </h2>
@@ -126,7 +126,7 @@ const toggleDark = useToggle(isDark)
             Clear completed
           </button>
       </div>
-      <div class=" mt-6 p-2 lg:hidden flex items-center justify-center gap-6 bg-light-VeryLightGray dark:bg-dark-VeryDarkDesaturatedBlue">
+      <div class=" mt-6 p-2 lg:hidden flex items-center justify-center gap-6 bg-light-VeryLightGray dark:bg-dark-VeryDarkDesaturatedBlue rounded-md">
                 <button @click="all" :class="[activeTab === 1 ? 'text-primary ' :'text-light-DarkGrayishBlue ']" class="outline-none bg-light-VeryLightGray dark:bg-dark-VeryDarkDesaturatedBlue  ">
                   All
                 </button>
