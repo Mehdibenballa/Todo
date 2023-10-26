@@ -126,7 +126,7 @@ const toggleDark = useToggle(isDark)
             Clear completed
           </button>
       </div>
-      <div class=" mt-6 p-2 lg:hidden flex items-center justify-center gap-6 bg-light-VeryLightGray dark:bg-dark-VeryDarkDesaturatedBlue rounded-md">
+      <div class=" mt-6 p-4 lg:hidden flex items-center justify-center gap-6 bg-light-VeryLightGray dark:bg-dark-VeryDarkDesaturatedBlue rounded-md">
                 <button @click="all" :class="[activeTab === 1 ? 'text-primary ' :'text-light-DarkGrayishBlue ']" class="outline-none bg-light-VeryLightGray dark:bg-dark-VeryDarkDesaturatedBlue  ">
                   All
                 </button>
