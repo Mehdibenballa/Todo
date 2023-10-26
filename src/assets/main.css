@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    @apply bg-light-VeryLightGrayishBlue dark:bg-dark-VeryDarkBlue 
+}
+
+button {
+    @apply outline-none;
+}
