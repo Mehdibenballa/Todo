@@ -84,7 +84,7 @@ const toggleDark = useToggle(isDark)
  <section class=" bg-light-VeryLightGrayishBlue dark:bg-dark-VeryDarkBlue px-4">
   <div class="relative container lg:w-1/2 pt-6 pb-6">
     <div class="relative -top-20 ">
-      <div class="overflow-y-auto max-h-[400px]">
+      <div id="style-13" class="overflow-y-auto max-h-[400px]">
         <draggable v-model="filtredArr" @start="drag=true" @end="drag=false" item-key="id">
           <template #item="{element}">
             <div class="cursor-move w-full bg-light-VeryLightGray dark:bg-dark-VeryDarkDesaturatedBlue p-4 lg:p-6 flex items-center justify-between gap-6 first:rounded-t-lg border-b border-light-VeryLightGrayishBlue dark:border-dark-VeryDarkGrayishBlueM">

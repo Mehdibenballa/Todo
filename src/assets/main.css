@@ -9,3 +9,19 @@ body{
 button {
     @apply outline-none;
 }
+
+::-webkit-scrollbar-track {
+    border-radius: 4px;
+    background-color: #CCCCCC;
+  }
+  
+::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+  }
+  
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #D62929;
+    background-image: linear-gradient(to right, hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+  }
